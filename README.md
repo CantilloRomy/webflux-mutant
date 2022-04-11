@@ -1,6 +1,13 @@
 # webflux-mutant
 API para conocer a partir de un vector de String (ADN), si una persona es mutante o no.
 
+- Api desarrollada con spring webflux.
+
+- La API esta configurada con Swagger para la especificacion de los diferentes endpoints.
+ -Para visualizar la documentacion, se debe ingresar por medio de la url /webjars/swagger-ui/index.html
+
+- El motor de BD es H2.
+
 Para realizar peticiones satisfactorias al API se debe tener en cuenta las siguientes especificaciones
 
 - Los caracteres permitidos para realizar la validacion son A, G, C, T
